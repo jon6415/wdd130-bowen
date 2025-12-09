@@ -164,3 +164,10 @@ a:hover {
 }
 
 
+/* Pertaining to Page 2 */
+
+.page-title{
+  text-align: center;       /* centers all content inside */
+  margin: 0 auto;           /* centers the section itself */
+  max-width: 1200px;        /* keeps it neat on wide screens */
+}
