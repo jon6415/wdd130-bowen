@@ -171,3 +171,53 @@ a:hover {
   margin: 0 auto;           /* centers the section itself */
   max-width: 1200px;        /* keeps it neat on wide screens */
 }
+
+.page-intro {
+  width: 60%;
+  margin: 0 auto;   /* centers the block horizontally */
+  text-align: center;
+}
+
+#testemonials {
+  width: 80%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+#testemonials article {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#testemonials figure {
+  margin: 0;
+}
+
+.testemonial-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+#testemonials figcaption p {
+  margin: 0.5rem 0;
+}
+
+.testemonial-reader {
+  font-weight: bold;
+  color: #555;
+  margin-top: 0.5rem;
+}
